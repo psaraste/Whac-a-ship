@@ -1,0 +1,62 @@
+body {
+    min-height: 100vh;
+    background-image: url(/img/pelitausta2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+button {
+    width:150px;
+    height: 60px;
+    background-color: #3f3f3f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+
+    
+}
+
+button:hover {
+    background-color: #272727;
+}
+
+#tekstit {
+    
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    color: rgb(197, 21, 21);
+}
+
+#tekstit1 {
+    
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    background-color: #3f3f3f;
+    border: 2px ;
+
+}
+
+.grid {
+	width: 606px;
+	height: 606px;
+	display: flex;
+	flex-wrap: wrap;
+   
+    
+}
+
+.square {
+	height: 200px;
+	width: 200px;
+	border: solid rgb(255, 255, 255) 1px;
+    
+}
+
+.ship {
+	background-image: url("/img/spaceship.png");
+	background-size: cover;
+}
+

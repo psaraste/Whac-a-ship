@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peli</title>
+    <link rel="stylesheet" href="./css/style23.css">
+</head>
+<body>
+
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li> <a href="./index2.html">Koti</a></li>
+            <li> <a href="./index3.html">Peli</a></li>
+            <li> <a href="./index.html">Kirjaudu-ulos</a></li>
+            
+        </ul>
+        <ul>
+            <li class="hideOnMobile"> <a href="./index2.html">Koti</a></li>
+            <li class="hideOnMobile"> <a href="./index3.html">Peli</a></li>
+            <li class="hideOnMobile"> <a href="./index.html">Kirjaudu-ulos</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+    <div id="isi">
+        <div id="container">
+            <h1>Tervetuloa pelaamaan!</h1> <br>
+
+            <label>Ennätyksesi: </label>
+            <span id="high-score">0</span>
+            <br><br>
+            
+            <a href="./index4.html">
+                <button type="linkbutton" id="aloita"  >Siirry peliin</button>
+            </a>
+        </div>
+    </div>  
+
+    <script src="./js/functions.js"></script>
+    <script src="./js/functions4.js"></script>
+</body>
+</html>
